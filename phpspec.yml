@@ -1,5 +1,11 @@
 suites:
-    main:
-        namespace: App
+    domain:
+        namespace: App\Domain
         psr4_prefix: App
         src_path: app
+        spec_path: tests
+
+extensions:
+    - PhpSpec\NyanFormattersExtension\Extension
+
+formatter.name: nyan.cat
