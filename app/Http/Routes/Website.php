@@ -4,7 +4,4 @@
  * WEBSITE ROUTES
  */
 
-$router->get('/', function()
-{
-   return "WEBSITE";
-});
+$router->get('/', 'HomeController@index');

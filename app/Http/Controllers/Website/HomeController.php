@@ -1,4 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Website;
+
+use Illuminate\Routing\Controller;
 
 class HomeController extends Controller {
 
@@ -17,7 +19,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('home');
+		return response("Home");
 	}
 
 }
