@@ -1,6 +1,15 @@
 {
   "devDependencies": {
     "gulp": "^3.8.8",
-    "laravel-elixir": "*"
+    "gulp-minify-css": "^0.3.10",
+    "gulp-notify": "^1.8.0",
+    "gulp-phpspec": "^0.3.0",
+    "gulp-phpunit": "^0.6.3",
+    "gulp-sass": "^1.3.2",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-compass": "^2.0.3",
+    "gulp-concat": "^2.4.3",
+    "gulp-livereload": "^3.4.0",
+    "gulp-uglify": "^1.1.0"
   }
 }
